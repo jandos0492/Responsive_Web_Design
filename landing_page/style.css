@@ -1,0 +1,108 @@
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    min-height: 75px;
+    padding: 0px 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(144, 166, 187);
+    text-align: right;
+}
+
+nav {
+    display: flex;
+    justify-content: start;
+    text-align: right;
+    font-weight: 700;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+div {
+    display: block;
+}
+
+.logo {
+    display: flex;
+    left: 50px;
+    width: 60%;
+}
+
+.logo img {
+    width: 450px;
+    height: 150px;
+}
+
+.nav-link {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+}
+
+li {
+    text-decoration: none;
+}
+
+#form {
+    margin-top: 200px;
+}
+
+#why-42 {
+    margin-top: 100px;
+    text-align: center;
+    line-height: 1.1;
+}
+
+#why-42 p {
+    max-width: 20%;
+    margin-left: 40%;
+}
+
+#email {
+    border: 2px solid rgb(4, 19, 37);
+    height: 25px;
+    text-align: center;
+    width: 150px;
+}
+
+#submit {
+    height: 32px;
+    width: 100px;
+    background: rgb(13, 241, 165);
+    pointer-events: visible;
+    border: 2px solid rgb(4, 19, 37);
+    font-size: 18;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+form {
+    text-align: center;
+}
+
+#curriculum {
+    text-align: center;
+    margin-top: 100px;
+    border: 1px solid balck;
+    border-radius: 20%;
+}
+#curriculum img {
+    border: 1px solid balck;
+    border-radius: 40%;
+}
+
+#students-about-us {
+    margin-top: 200px;
+    text-align: center;
+}
+
+@media (min-width: 600px)
+
+p {
+    font-size: 20px;
+}

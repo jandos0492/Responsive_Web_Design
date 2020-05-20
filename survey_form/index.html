@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <section>
+            <h1 id="title">Survey Form</h1>
+            <p id="description">This Form can help us improve our service</p>
+        </section>
+    </header>
+    <main>
+        <form id="survey-form">
+            <div class="all-forms">
+                <label class="all-labels" id="name-label" class="all-labels">Name:</label>
+                <input type="text" name="name" id="name" class="input-class" placeholder="Enter your name" required>
+            </div>
+            <div class="all-forms">
+                <label class="all-labels" id=email-label>Email:</label>
+                <input type="email" name="email" id="email" class="input-class" placeholder="Enter your email" required>
+            </div>
+            <div class="all-forms">
+                <label class="all-labels" id="number-label">Age:</label>
+                <input type="number" name="age" id="number" class="input-class" placeholder="Enter your age" min="18" max="100" required>
+            </div>
+            <div class="all-forms">
+                <p>Select your Gender:</p>
+                <select name="" id="dropdown" class="input-class">
+                    <option value="Male">Male</option>
+                    <option value=Female">Female</option>
+                </select>
+            </div>
+            <p>Do you have a diploma?</p>
+            <div class="all-forms">
+                <label class="all-forms">    
+                    <input name="diploma" type="radio" value="Yes" class="radio" checked>
+                    Yes
+                </label>
+            </div>
+            <div class="all-forms">
+                <label class="all-forms">    
+                    <input name="diploma" type="radio" value="No" class="radio">
+                    No
+                </label>
+            </div>
+            <p>What genres of movies do you like?</p>
+            <div class="all-forms">
+                <label class="all-forms">    
+                    <input name="genres" type="checkbox" value="action thriller" class="checkbox">
+                    action thriller
+                </label>
+            </div>
+            <div class="all-forms">
+                <label class="all-forms">    
+                    <input name="genres" type="checkbox" value="Action comedy" class="checkbox">
+                    Action comedy
+                </label>
+            </div>
+            <div class="all-forms">
+                <label class="all-forms">    
+                    <input name="genres" type="checkbox" value="Horror comedy" class="checkbox">
+                    Horror comedy
+                </label>
+            </div>
+            <div class="all-forms">
+                <label class="all-forms">    
+                    <input name="genres" type="checkbox" value="crime comedy" class="checkbox">
+                    crime comedy
+                </label>
+            </div>
+            <div class="all-forms">
+                <label class="all-forms">    
+                    <input name="genres" type="checkbox" value="war drama" class="checkbox">
+                    war drama
+                </label>
+            </div>
+            <div class="all-forms">
+                <p>Your comment:</p>
+                <textarea id="comment" class="input-textarea" name="comment" placeholder="Enter your comment"></textarea>
+            </div>
+            <div class="all-forms">
+                <button id="submit" type="submit">Submit</button>
+            </div>
+        </form>
+    </main>
+</body>
+</html>
+
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>

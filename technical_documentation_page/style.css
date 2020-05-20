@@ -1,0 +1,92 @@
+#navbar {
+    position: fixed;
+    min-width: 350px;
+    top: 0px;
+    left: 0px;
+    width: 350px;
+    height: 100%;
+    border-right: 3px solid rgb(97, 100, 85);
+    background-color: rgb(243, 245, 236);
+}
+
+.nav-ul {
+    margin-top: 80px;
+    padding-right: 100px;
+}
+
+#nav-header {
+    text-decoration: none;
+}
+
+#nav-header h1 {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.nav-link {
+    font-weight: 600;
+    color: black;
+    font-size: 20px;
+    display: block;
+    padding: 10px 30px;
+    color: #333438;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+a {
+    text-decoration: none;
+}
+
+
+
+#main-doc {
+    position: absolute;
+    margin-left: 340px;
+    padding: 25px;
+    margin-bottom: 50px;
+}
+
+.section-header {
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+    border: 3px solid gray;
+    border-radius: 50%;
+}
+
+.section-div code {
+    text-align: center;
+}
+
+br {
+    text-align: center;
+}
+
+.code-div {
+    text-align: center;
+    margin-bottom: 80px;
+    background-color: rgb(236, 234, 230);
+}
+
+ul {
+    list-style-type: none;
+}
+
+.example-p {
+    text-align: center;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+
+@media (min-width: 600px)
+{
+
+    p {
+        font-size: 17px;
+    }
+
+}

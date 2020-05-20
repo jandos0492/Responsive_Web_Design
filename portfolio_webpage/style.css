@@ -1,0 +1,177 @@
+* {
+    /* border: 1px solid black; */
+}
+
+.navbar {
+    width: 100%;
+    height: 70px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: rgb(231, 137, 137);
+    align-content: center;
+}
+
+.navbar ul {
+    display: flex;
+    padding-top: 10px;
+}
+
+.welcome-section h1 {
+    margin-top: 50px;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.welcome-section p {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.welcome-img img {
+    
+    border-radius: 40%;
+    height: 250px;
+}
+
+
+.nav-ul li {
+    margin-right: 50px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li a {
+    text-transform: capitalize;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+#welcome-section {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(240, 243, 209);
+}
+
+.project-section {
+    width: 100%;
+    height: 100vh;
+}
+
+.project-h1 {
+    text-align: center;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.project-name {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 20px;
+    padding-right: 20px;
+}
+
+.project-div {
+    background-color: rgb(125, 185, 125);
+    max-height: 500px;
+}
+
+.project-tile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-tile div {
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+.main-div2 div {
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.main-div2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-img {
+    width: 400px;
+    height: 300px;
+}
+
+.last-section {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(240, 243, 209);
+}
+
+.contact-div {
+    top: 20px;
+    display: flex;
+    width: 20%;
+    align-content: center;
+
+}
+
+.contact-div a {
+    text-align: center;
+    padding-top: 10px;
+    margin-left: 60px;
+    text-decoration: none;
+    font-size: 24px;
+    padding-left: 70px;
+    color: black;
+}
+
+.contact-div p {
+    text-align: center;
+    padding-top: 10px;
+    margin-left: 60px;
+    font-size: 24px;
+}
+
+#gmail {
+    font-size: 50px;
+    padding-top: 20px;
+}
+
+#github {
+    text-align: center;
+    font-size: 50px;
+}
+
+
+@media (max-width: 575px) {
+    /* intro */
+
+    .navbar {
+        font-size: 40px;
+    }
+
+}
